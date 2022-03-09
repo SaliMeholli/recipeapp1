@@ -24,8 +24,8 @@ const YOUR_APP_KEY = "97e6a1b6e3734b376bfb7c84fa7a92ac";
   }
   return (
     <div className="App">
-     <h1 >Food Recipe Plaza 🍔</h1>
-     <p>Search for a recipe</p>
+     <h1 >Food Recipe App</h1>
+     <p>Search for a recipe: </p>
      <form className="app_searchForm" onSubmit={onSubmit}>
        <input className="app_input" type="text" placeholder="Enter Ingridient" value={query} onChange={(e) => setQuery(e.target.value)}
        />
